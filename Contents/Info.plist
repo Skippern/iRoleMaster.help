@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>iRoleMaster</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>hbwr</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HPDBookAccessPath</key>
+	<string>index.html</string>
+	<key>HPDBookIconPath</key>
+	<string>shared/iRoleMaster.png</string>
+	<key>HPDBookIndexPath</key>
+	<string>iRoleMaster.helpindex</string>
+	<key>HPDBookKBProduct</key>
+	<string>irolemaster</string>
+	<key>HPDBookKBURL</key>
+	<string>https://iRoleMaster.github.io/kbsearch.py?p=&apos;product&apos;q=&apos;query&amp;l=&apos;lang&apos;</string>
+	<key>HPDBookRemoteURL</key>
+	<string>https://iRoleMaster.github.io/help_files/</string>
+	<key>HPDBookTitle</key>
+	<string>iRoleMaster Help</string>
+	<key>HPDBookType</key>
+	<string>3</string>
+	<key>HPDBookTopicListCSSPath</key>
+	<string>css/default.css</string>
+	<key>HPDBookTopicListTemplatePath</key>
+	<string>en.lproj/iRoleMaster.helpindex</string>
+	<key>CFBundleIdentifier</key>
+	<string>BR.com.johnsen-offshore.iRoleMaster.help</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>iRoleMaster.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>iRoleMaster</string>
+	<key>CFAppleHelpAnchor</key>
+	<string>index.html</string>
+	<key>HPDBookUsesExternalViewer</key>
+	<true />
+</dict>
+</plist>
