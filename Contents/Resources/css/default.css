@@ -7,8 +7,34 @@ body {
 	column-width: 30em;
 }
 
+li {
+	text-align: left;
+}
+
 p {
 	text-align:	justify;
+}
+
+span#general {
+	color: darkgrey;
+}
+span#arcane {
+	color: purple;
+}
+span#channeling {
+	color: red;
+}
+span#essence {
+	color: green;
+}
+span#mentalism {
+	color: blue;
+}
+span#elemental {
+	color:	gold;
+}
+span#psionic {
+	color: orange;
 }
 
 p#indexed {
@@ -24,9 +50,13 @@ p#indexed > strong {
 p#indexed > sup {
 	font-size: xx-small;
 }
-
-li {
-	text-align: left;
+p#spelldetail {
+	text-align: right;
+	font-size: smaller;
+}
+ol#spell {
+	text-align: justify;
+	font-size: small;
 }
 
 table {
