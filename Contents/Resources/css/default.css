@@ -19,16 +19,16 @@ span#general {
 	color: darkgrey;
 }
 span#arcane {
-	color: purple;
+	color: darkviolet;
 }
 span#channeling {
-	color: red;
+	color: blue;
 }
 span#essence {
-	color: green;
+	color: limegreen;
 }
 span#mentalism {
-	color: blue;
+	color: red;
 }
 span#elemental {
 	color:	gold;
