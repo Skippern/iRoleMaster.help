@@ -4,7 +4,7 @@
 <title>iRoleMaster Spells</title>
 <meta name="generator" content="Bluefish 2.2.7" />
 <meta name="author" content="Aun Johnsen" />
-<meta name="date" content="2015-09-02T22:32:06-0300" />
+<meta name="date" content="2015-09-03T00:04:07-0300" />
 <meta name="copyright" content="Copyright &copy; 2015"/>
 <!-- <meta name="keywords" content=""/> -->
 <meta name="description" content="Skills"/>
@@ -1214,11 +1214,11 @@
 <p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> sleep <strong>Range:</strong> self <strong>Type:</strong> I</p></li>
 <li value="6"><strong>Enemy Speech</strong> For the duration of this spell, the caster can read and speak one “enemy” language with skill rank 8.
 <p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> 1 min/lvl <strong>Range:</strong> self <strong>Type:</strong> I</p></li>
-<li value="7"><strong>Dispel Channeling</strong> Any active spell from the realm of Channeling that is on the target must make an RR (use the level of that spell’s caster as the spell’s level). If the spell fails it RR, it is dispelled.
+<li value="7"><strong>Dispel <span id="channeling">Channeling</span></strong> Any active spell from the realm of <span id="channeling">Channeling</span> that is on the target must make an RR (use the level of that spell’s caster as the spell’s level). If the spell fails it RR, it is dispelled.
 <p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> - <strong>Range:</strong> 10' <strong>Type:</strong> F</p></p></li>
-<li value="8"><strong>Dispel Essence</strong>  As <em>Dispel Channeling</em>, except affects spells from the realm of Essence.
+<li value="8"><strong>Dispel <span id="essence">Essence</span></strong>  As <em>Dispel Channeling</em>, except affects spells from the realm of <span id="essence">Essence</span>.
 <p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> - <strong>Range:</strong> 10' <strong>Type:</strong> F</p></p></li>
-<li value="9"><strong>Dispel Mentalism</strong>  As <em>Dispel Channeling</em>, except affects spells from the realm of Mentalism.
+<li value="9"><strong>Dispel <span id="mentalism">Mentalism</span></strong>  As <em>Dispel Channeling</em>, except affects spells from the realm of <span id="mentalism">Mentalism</span>.
 <p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> - <strong>Range:</strong> 10' <strong>Type:</strong> F</p></p></li>
 <li value="10"><strong>Detect Enemies II</strong> As <em>Detect Enemies I</em>, except for range and area of effect.<p id="spelldetail"><strong>Area of Effect:</strong> 100'R <strong>Duration:</strong> 1 min/lvl(C) <strong>Range:</strong> 500'/lvl <strong>Type:</strong> P</p></li>
 <li value="11"><strong>Dreams III</strong> As <em>Dream I</em>, except limit is 3 dreams per night on different topics.
@@ -1227,11 +1227,11 @@
 <p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> - <strong>Range:</strong> self <strong>Type:</strong> I</p></li>
 <li value="13"><strong>Channel Opening I</strong> Caster can make contact with any 1 known target he his acquainted with. This spell will enable the caster to learn the specific location (direction and distance only) of the other being. This spell is often used with a <em>Channels</em> spell (see <a href="#AL_2.4.1">Cleric Base List 2.4.1</a>).
 <p id="spelldetail"><strong>Area of Effect:</strong> 1 being <strong>Duration:</strong> C <strong>Range:</strong> 1 mile/lvl <strong>Type:</strong> U</p></li>
-<li value="14"><strong>Dispel Channeling Sphere I</strong> As Dispel Channeling, except for the area of effect (centered on the caster). If the radius encounters an already existing spell, the spell must make an RR (with a +30 modifier) or be cancelled (not dispelled) for as long as the active spell is inside the radius.
+<li value="14"><strong>Dispel <span id="channeling">Channeling</span> Sphere I</strong> As Dispel <span id="channeling">Channeling</span>, except for the area of effect (centered on the caster). If the radius encounters an already existing spell, the spell must make an RR (with a +30 modifier) or be cancelled (not dispelled) for as long as the active spell is inside the radius.
 <p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> F</p></li>
-<li value="15"><strong>Dispel Essence Sphere I</strong> As <em>Dispel Channeling Sphere I</em>, except affects spells from the realm of Essence.
+<li value="15"><strong>Dispel <span id="essence">Essence</span> Sphere I</strong> As <em>Dispel Channeling Sphere I</em>, except affects spells from the realm of <span id="essence">Essence</span>.
 <p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> F</p></li>
-<li value="16"><strong>Dispel Mentalism Sphere I</strong> As <em>Dispel Channeling Sphere I</em>, except affects spells from the realm of Mentalism.
+<li value="16"><strong>Dispel <span id="mentalism">Mentalism</span> Sphere I</strong> As <em>Dispel Channeling Sphere I</em>, except affects spells from the realm of <span id="mentalism">Mentalism</span>.
 <p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> F</p></li>
 <li value="17"><strong>Commune I</strong> Caster receives (usually from his patron deity) a “yes” or a “no” answer to a question on a single topic. This spell may be used a maximum of once per day.
 <p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
@@ -3132,6 +3132,46 @@ The RR of any single Undead can be modified by concentrating the effects of the 
 <li><em>SL</em> <a name="SL_4.4.2">4.4.2 <span id="mentalism">Mentalist Base List</span> Mind Control</a> </li>
 </ul>
 <ol id="spell">
+<li value="1"><strong>Question</strong> Target must answer a single-concept question truthfully (though he must be able to understand the question).
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> - <strong>Range:</strong> 10' <strong>Type:</strong> Fm</p></li>
+<li value="2"><strong>Sleep</strong> Target falls into natural sleep. The first round is a magical sleep (the target cannot be awakened through normal means).
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> - <strong>Range:</strong> 50' <strong>Type:</strong> Fm</p></li>
+<li value="3"><strong>Charm Kind</strong> Humanoid target believes caster is a good friend.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 10 min/lvl <strong>Range:</strong> 50' <strong>Type:</strong> Fm</p></li>
+<li value="4"><strong>Calm</strong> Target will take no offensive action, will fight only in self-defense.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 min/lvl <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="5"><strong>Confusion</strong> Target is incapable of making decisions or initiating action; may continue to fight current foes or in self-defense.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 rnd/5 fail <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="6"><strong>Fear</strong> Target fears caster and attempts to flee. Fleeing usually equates to running at maximum pace away from the caster.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 min/10 fail <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="7"><strong>Suggestion</strong> Target will follow a single suggested act that was not completely alien to him (e.g., no suicide suggestions, no blinding himself suggestions, etc.).
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> varies <strong>Range:</strong> 10' <strong>Type:</strong> Fm</p></li>
+<li value="8"><strong>Hold Kind</strong> Target is held to 25% of normal action.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> C <strong>Range:</strong> 50' <strong>Type:</strong> Fm</p></li>
+<li value="9"><strong>Emotions</strong> Causes any desired emotion. Possible emotions include hate, love, sadness, anger, etc.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 min/lvl <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="10"><strong>Master of Kind</strong> Target must obey the caster as specified in <em>Suggestion</em>.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 10 min/lvl <strong>Range:</strong> 10' <strong>Type:</strong> Fm</p></li>
+<li value="11"><strong>Coma</strong> <tt>[RR Mod: +20]</tt> Target falls into a coma.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 day/10 fail <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="12"><strong>True Charm</strong> As <em>Charm Kind</em>, except works on any sentient creature.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 10 min/lvl <strong>Range:</strong> 50' <strong>Type:</strong> Fm</p></li>
+<li value="14"><strong>Hold True</strong> As <em>Hold Kind</em>, except any sentient being can be affected.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> C <strong>Range:</strong> 50' <strong>Type:</strong> Fm</p></li>
+<li value="15"><strong>Geas</strong> Target is given 1 task. Failure results in a penalty determined by GM (task must be within target’s capabilities). If the target ignores the task, he will suffer the same effects of failure.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> varies <strong>Range:</strong> 10' <strong>Type:</strong> Fm</p></li>
+<li value="16"><strong>Hold Kind True</strong>  <tt>[RR Mod: -20]</tt> Target is totally paralyzed (0% action).
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> C <strong>Range:</strong> 50' <strong>Type:</strong> Fm</p></li>
+<li value="18"><strong>Mind Break</strong> Target is a blathering idiot. He may be led around but he can take <strong>no</strong> action.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> P <strong>Range:</strong> 50' <strong>Type:</strong> Fm</p></li>
+<li value="20"><strong>True Sleep</strong> <tt>[RR Mod: -20]</tt> Target is unconscious and unwakeable.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 min/10 fail <strong>Range:</strong> 10' <strong>Type:</strong> Fm</p></li>
+<li value="25"><strong>True Geas</strong> As <em>Geas</em>, except failure is punished by the target suffering five <tt>'E'</tt> criticals (choose which critical types randomly).
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> varies <strong>Range:</strong> 10' <strong>Type:</strong> Fm</p></li>
+<li value="30"><strong>Mind Control True</strong> When he concentrates, caster has total control of target’s mind. After the initial casting, the range for control is 1 mile per level of the caster.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 min/lvl (C) <strong>Range:</strong> 300' <strong>Type:</strong> Fm</p></li>
+<li value="50"><strong>Mind Master</strong> As <em>Mind Control True</em>, except duration is permanent (until dispelled). The caster need only concentrate to give commands. Only one target can be controlled in this fashion at a time.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> P (C) <strong>Range:</strong> 300' <strong>Type:</strong> Fm</p></li>
 </ol>
 <!-- AppleSegEnd -->
 <!-- AppleSegStart="Mind Death" -->
