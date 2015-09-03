@@ -4,7 +4,7 @@
 <title>iRoleMaster Spells</title>
 <meta name="generator" content="Bluefish 2.2.7" />
 <meta name="author" content="Aun Johnsen" />
-<meta name="date" content="2015-09-03T00:04:07-0300" />
+<meta name="date" content="2015-09-03T20:08:41-0300" />
 <meta name="copyright" content="Copyright &copy; 2015"/>
 <!-- <meta name="keywords" content=""/> -->
 <meta name="description" content="Skills"/>
@@ -2667,7 +2667,7 @@ The RR of any single Undead can be modified by concentrating the effects of the 
 <p id="spelldetail"><strong>Area of Effect:</strong> 20'R <strong>Duration:</strong> 1 rnd/lvl <strong>Range:</strong> 100' <strong>Type:</strong> U </p></li>
 <li value="16"><strong>Courage True</strong> As <em>Courage</em>, except the second RR automatically succeeds.<p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> 1 rnd/lvl <strong>Range:</strong> self <strong>Type:</strong> U </p></li>
 <li value="17"><strong>Inspiriations VII <sup>&#42;</sup></strong> As <em>Inspirations I</em>, except bonuses are +35.<p id="spelldetail"><strong>Area of Effect:</strong> 20'R <strong>Duration:</strong> 1 rnd/lvl <strong>Range:</strong> 100' <strong>Type:</strong> U </p></li>
-<li value="18"><strong>Words of Cautions <sup>&#42;</sup></strong> As <em>Voice of Caution<em>, except will affect all who can hear the caster.<p id="spelldetail"><strong>Area of Effect:</strong> varies <strong>Duration:</strong> varies <strong>Range:</strong> 100' <strong>Type:</strong> Fm </p></li>
+<li value="18"><strong>Words of Cautions <sup>&#42;</sup></strong> As <em>Voice of Caution</em>, except will affect all who can hear the caster.<p id="spelldetail"><strong>Area of Effect:</strong> varies <strong>Duration:</strong> varies <strong>Range:</strong> 100' <strong>Type:</strong> Fm </p></li>
 <li value="19"><strong>Inspirations VIII <sup>&#42;</sup></strong> As <em>Inspirations I</em>, except bonuses are +40.<p id="spelldetail"><strong>Area of Effect:</strong> 20'R <strong>Duration:</strong> 1 rnd/lvl <strong>Range:</strong> 100' <strong>Type:</strong> U </p></li>
 <li value="20"><strong>Voice of Conviction</strong> <tt>[RR Mod: -50]</tt> After casting this spell, the caster must tell the truth (as he knows it). All targets who fail their RR will believe the caster is speaking the absolute truth.<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> varies <strong>Range:</strong> 10' <strong>Type:</strong> Fm </p></li>
 <li value="25"><strong>Inspirations True <sup>&#42;</sup></strong> As <em>Inspirations I</em>, except bonuses are +50.<p id="spelldetail"><strong>Area of Effect:</strong> 20'R <strong>Duration:</strong> 1 rnd/lvl <strong>Range:</strong> 100' <strong>Type:</strong> U </p></li>
@@ -3236,6 +3236,40 @@ The RR of any single Undead can be modified by concentrating the effects of the 
 <li><em>SL</em> <a name="SL_4.4.3">4.4.3 <span id="mentalism">Mentalist Base List</span> Mind Merge</a> </li>
 </ul>
 <ol id="spell">
+<li value="1"><strong>Empathy</strong> Caster learns target’s basic feelings. The caster can concentrate on a new target each round.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target/rnd <strong>Duration:</strong> 1 rnd/lvl (C) <strong>Range:</strong> 10' <strong>Type:</strong> Pm</p></li>
+<li value="2"><strong>Read Emotions</strong> Caster learns target’s emotions in detail. The caster can concentrate on a new target each round.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target/rnd <strong>Duration:</strong> 1 rnd/lvl (C) <strong>Range:</strong> 50' <strong>Type:</strong> Pm</p></li>
+<li value="3"><strong>Merge With Mentalist</strong> Allows two Mentalism spell users to communicate mentally and exchange power points.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> touch <strong>Type:</strong> U</p></li>
+<li value="4"><strong>Focus Merge</strong> When cast before (within 1 minute) a <em>Mind Merge</em> or a <em>Ready Merge</em> spell, this spell allows the caster to focus on a specific person as the target (that he has <em>Mind Stored</em> the person).
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="5"><strong>Thoughts</strong> Caster receives surface thoughts from target. If target makes his RR by more than 25 he realizes that someone is trying to read his thoughts.. The caster can concentrate on a new target each round.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target/rnd <strong>Duration:</strong> 1 rnd/lvl (C) <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="6"><strong>Mind Merge I</strong> Allows caster and target to interchange thoughts; if both are <span id="mentalism"><em>Mentalism</em></span> spell users they can interchange power points. They must be able to see each other or the caster must know the exact location of the target or the caster must use <em>Focus Merge</em> to locate the target (in all cases, the target must be within range).
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> touch <strong>Type:</strong> U</p></li>
+<li value="7"><strong>Prepare Merge</strong> The caster prepares himself to be the target of a <em>Mind Merge</em> or <em>Ready Merge</em> spell, thus, increases the range of the “incoming” spell. The increased range is equal to the original range times the number of Power Points used to cast the <em>Prepare Merge</em> spell (e.g., if a caster uses 18 Power Points, the range is 18x normal).
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="8"><strong>Mind Merge II</strong> As <em>Mind Merge I</em>, except range is 100'.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 100' <strong>Type:</strong> U</p></li>
+<li value="10"><strong>Inner Thoughts</strong> As in <em>Thoughts</em>, except caster also learns reasoning and thought patterns behind surface thoughts.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target/rnd <strong>Duration:</strong> 1 rnd/lvl <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="11"><strong>Ready Merge<sup>&#42;</sup></strong> As in <em>Mind Merge I</em>, except for range <strong>and</strong> caster and target must have <em>Merged</em> before <strong>and</strong> it is instantaneous.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 100'/lvl <strong>Type:</strong> U</p></li>
+<li value="13"><strong>Mind Switch</strong> Target and caster switch minds and spell casting abilities. Target (in caster’s body) is in a coma if he is not also a <span id="mentalism"><em>Mentalist</em></span>. If the target is unwilling, he may make a new RR every hour.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> 1 day <strong>Range:</strong> touch <strong>Type:</strong> Fm</p></li>
+<li value="15"><strong>Mind Scan</strong> As in <em>Inner Thoughts</em>, except caster can also scan target’s conscious memories, at a rate of 1 scene every round.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target/rnd <strong>Duration:</strong> 1 rnd/lvl (C) <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="18"><strong>Mind Merge True</strong> As <em>Mind Merge I</em>, except for range <strong>and</strong> caster must know the exact location of the target mentally or through some other means.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 50'/lvl <strong>Type:</strong> U</p></li>
+<li value="20"><strong>Mind Probe</strong> As in <em>Mind Scan</em>, except caster can probe target’s subconscious memories (i.e., all experiences).
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target/rnd <strong>Duration:</strong> 1 rnd/lvl (C) <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="25"><strong>Mind Switch True</strong> As in <em>Mind Switch</em>, except lasts until the caster decides to return to his own body.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> varies <strong>Range:</strong> touch <strong>Type:</strong> Fm</p></li>
+<li value="30"><strong>Thought Steal</strong> Caster can remove one thought or memory from the target’s mind each round.
+<p id="spelldetail"><strong>Area of Effect:</strong> 1 target <strong>Duration:</strong> 1 rnd/lvl (C) <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="50"><strong>Ready Merge True<sup>&#42;</sup></strong> As in <em>Ready Merge</em>, except range is unlimited.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> unlimited <strong>Type:</strong> U</p></li>
 </ol>
 <!-- AppleSegEnd -->
 <!-- AppleSegStart="Mind Over Matter" -->
@@ -3268,7 +3302,57 @@ The RR of any single Undead can be modified by concentrating the effects of the 
 <li><em>SL</em> <a name="SL_4.4.4">4.4.4 <span id="mentalism">Mentalist Base List</span> Mind Speech</a> </li>
 </ul>
 <ol id="spell">
+<li value="1"><strong>Mentalist Tongue<sup>&#42;</sup></strong> Caster may mentally speak with another spell caster of the Mentalism realm.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="2"><strong>Prepare Mind I</strong> The caster enters a trance-like state to prepare his mind to be the recipient for a <em>Mind Tongue</em> spell. While he is under the effects of this spell, any “incoming” <em>Mind Tongue</em> spell has its range increased by 10 times.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="3"><strong>Mind Tongue I<sup>&#42;</sup></strong> Caster may mentally speak with any one thinking being. They must be able to see each other or the caster must know the exact location of the target or the caster must use <em>Focus Merge</em> to locate the target (in all cases, the target must be within range).
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="4"><strong>Focus Mind</strong> When this spell is cast, the next <em>Mind Tongue</em> spell (cast within one minute of this spell) will be able to focus in on a specific person as its target. The person must be <em>Mind Stored</em> (see the <a href="#SL_4.4.5">Presence spell list</a>).
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="5"><strong>Prepare Mind II<sup>&#42;</sup></strong> As <em>Prepare Mind I</em>, except range is increased by 20 times.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> range <strong>Type:</strong> U</p></li>
+<li value="6"><strong>Mind Tongue II</strong> As <em>Mind Tongue I</em>, except range is 500'.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 500' <strong>Type:</strong> Fm</p></li>
+<li value="8"><strong>Prepare Mind III</strong> As <em>Prepare Mind I</em>, except range is increased by 50 times.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="9"><strong>Mind Speech I<sup>&#42;</sup></strong> Caster can broadcast thoughts to minds of all within range. This is a “one-way” communication.
+<p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> Fm</p></li>
+<li value="10"><strong>Mind Tongue III<sup>&#42;</sup></strong> As <em>Mind Tongue I</em>, except range is 1,000'.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 1000' <strong>Type:</strong> Fm</p></li>
+<li value="11"><strong>Prepare Mind IV</strong> As <em>Prepare Mind I</em>, except range is increased by 100 times.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="12"><strong>Mind Speech II<sup>&#42;</sup></strong> As Mind Speech I, except area of effect is 100'R.
+<p id="spelldetail"><strong>Area of Effect:</strong> 100'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> Fm</p></li>
+<li value="13"><strong>Friend Speech<sup>&#42;</sup></strong> As <em>Mind Speech</em>, except caster can limit broadcast to desired beings.
+<p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> Fm</p></li>
+<li value="14"><strong>Prepare Mind V</strong> As <em>Prepare Mind I</em>, except range is increased by 500 times.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="15"><strong>Mind Speech III<sup>&#42;</sup></strong> As <em>Mind Speech I</em>, except area of effect is 300'R.
+<p id="spelldetail"><strong>Area of Effect:</strong> 300'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> Fm</p></li>
+<li value="16"><strong>Waiting Tongue<sup>&#42;</sup></strong> A 25-word mental message can be delayed. The triggering area must be no larger than 10'R and the trigger can be any of the following: a fixed time period up to 24 hours, specified movements, specified sounds, touch, reading, or by a specific Mind Stored person entering the area.
+<p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> C <strong>Range:</strong> 100' <strong>Type:</strong> Fm</p></li>
+<li value="17"><strong>Prepare Mind True</strong> As <em>Prepare Mind I</em>, except range is increased by 1,000 times.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> U</p></li>
+<li value="18"><strong>Mind Tongue IV<sup>&#42;</sup></strong> As <em>Mind Tongue I</em>, except range is 1 mile.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 1 mile <strong>Type:</strong> Fm</p></li>
+<li value="19"><strong>Friend Speech True<sup>&#42;</sup></strong> As <em>Friend Speech</em>, except area of effect is 100'R.
+<p id="spelldetail"><strong>Area of Effect:</strong> 100'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> Fm</p></li>
+<li value="20"><strong>Mind Speech True <sup>&#42;</sup></strong> As <em>Mind Speech I</em>, except area of effect is 2,000'R.
+<p id="spelldetail"><strong>Area of Effect:</strong> 2000'R <strong>Duration:</strong> C <strong>Range:</strong> self <strong>Type:</strong> Fm</p></li>
+<li value="25"><strong>Mind Tongue True<sup>&#42;</sup></strong> As <em>Mind Tongue I</em>, except range is 1 mile per level.
+<p id="spelldetail"><strong>Area of Effect:</strong> caster + 1 target <strong>Duration:</strong> C <strong>Range:</strong> 1 mile/lvl <strong>Type:</strong> Fm</p></li>
+<li value="30"><strong>Waiting Speech <sup>&#42;</sup></strong> As <em>Waiting Tongue</em>, except it is broadcast to all within a 300'R.
+<p id="spelldetail"><strong>Area of Effect:</strong> varies <strong>Duration:</strong> varies <strong>Range:</strong> self <strong>Type:</strong> Fm</p></li>
+<li value="50"><strong>Far Mind Speech<sup>&#42;</sup></strong> As Mind Speech I, except area of effect can be up to 1 mile per level from caster.
+<p id="spelldetail"><strong>Area of Effect:</strong> 10'R <strong>Duration:</strong> C <strong>Range:</strong> 1 mile/lvl <strong>Type:</strong> Fm</p></li>
 </ol>
+<blockquote id="notes"><strong>Special Notes</strong>
+<ol>
+<li>Except where communication is noted as being only “one-way,” the spells above create a “two-way” communication between the target (and the caster). The caster is not required to speak verbally. The target speaks verbally, but the caster is actually reading the thoughts of the target (though some targets may learn to use mental communication—any caster who knows this list is presumed to have this ability).</li>
+</ol>
+</blockquote>
+
 <!-- AppleSegEnd -->
 <!-- AppleSegStart="Mind Subversion" -->
 <h3>Mind Subversion</h3>
