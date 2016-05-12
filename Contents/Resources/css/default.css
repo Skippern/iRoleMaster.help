@@ -94,6 +94,13 @@ blockquote#restriction > strong {
 	color:  black;
 	text-shadow: 0 0 0;
 }
+blockquote#quote {
+	text-align:	right;
+}
+blockquote#quote > em {
+	text-align: center;
+	/* none */
+}
 
 details {
 	font-size: smaller;
