@@ -23,11 +23,11 @@
 	<key>HPDBookIndexPath</key>
 	<string>iRoleMaster.helpindex</string>
 	<key>HPDBookKBProduct</key>
-	<string>irolemaster</string>
+	<string>iRoleMaster</string>
 	<key>HPDBookKBURL</key>
 	<string>https://iRoleMaster.github.io/kbsearch.py?p=&apos;product&apos;q=&apos;query&amp;l=&apos;lang&apos;</string>
 	<key>HPDBookRemoteURL</key>
-	<string>https://iRoleMaster.github.io/help_files/</string>
+	<string>https://iRoleMaster.github.io/iRoleMaster.help/</string>
 	<key>HPDBookTitle</key>
 	<string>iRoleMaster Help</string>
 	<key>HPDBookType</key>
