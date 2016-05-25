@@ -18,6 +18,9 @@ li {
 p {
 	text-align:	justify;
 }
+p#right {
+	text-align: right;
+}
 
 span#general {
 	color: darkgrey;
