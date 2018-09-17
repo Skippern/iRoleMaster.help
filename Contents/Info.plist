@@ -5,17 +5,17 @@
 	<key>CFBundleName</key>
 	<string>iRoleMaster</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>en_GB</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1</string>
 	<key>CFBundleSignature</key>
 	<string>hbwr</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1</string>
 	<key>HPDBookAccessPath</key>
 	<string>index.html</string>
 	<key>HPDBookIconPath</key>
@@ -25,7 +25,7 @@
 	<key>HPDBookKBProduct</key>
 	<string>iRoleMaster</string>
 	<key>HPDBookKBURL</key>
-	<string>https://iRoleMaster.github.io/kbsearch.py?p=&apos;product&apos;q=&apos;query&amp;l=&apos;lang&apos;</string>
+	<string>https://iRoleMaster.github.io/iRoleMaster.help/</string>
 	<key>HPDBookRemoteURL</key>
 	<string>https://iRoleMaster.github.io/iRoleMaster.help/</string>
 	<key>HPDBookTitle</key>
@@ -45,6 +45,6 @@
 	<key>CFAppleHelpAnchor</key>
 	<string>index.html</string>
 	<key>HPDBookUsesExternalViewer</key>
-	<true />
+	<true/>
 </dict>
 </plist>
